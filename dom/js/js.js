@@ -46,12 +46,11 @@ function start(){
         for(i=1;i<=num2;i++){
 			m=num1*i
 			console.log(m)
+			document.write(m+"</br>");
          
         // Displays the result in paragraph using dom
        
          
-        // Changes the color of paragraph tag with red
-        //document.getElementById("result").style.color = "red";
 }
  
 }
