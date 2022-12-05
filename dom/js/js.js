@@ -1,45 +1,38 @@
-f=document.createElement("Button")
-f.setAttribute("onclick","start();");
-f.innerHTML="click Me"
-document.body.appendChild(f);
-w=document.createElement("div");
+Button=document.createElement("Button")
+Button.setAttribute("onclick","start();");
+Button.innerHTML="click Me"
+document.body.appendChild(Button);
+//w=document.createElement("div");
 
 
 function start(){
-   p=document.createElement("Button");
-   p.setAttribute("onclick","multipleof3();"); 
-   p.innerHTML="start";
-   document.body.appendChild(p)
+   startButton=document.createElement("Button");
+   startButton.setAttribute("onclick","multipleof3();"); 
+   startButton.innerHTML="start";
+   document.body.appendChild(startButton)
   /* q=document.createElement("Button");
    q.setAttribute("onclick","run();");
    document.body.appendChild(q)
    q.innerHTML="run";*/
  
 }
- 
- 
- 
- 
- 
- 
- 
  function multipleof3(){
-    var x = document.createElement("INPUT");
-    x.setAttribute("type", "text");
-    x.setAttribute("placeholder", "enter the number:");
+    var inputButton1 = document.createElement("INPUT");
+    inputButton1.setAttribute("type", "text");
+    inputButton1.setAttribute("placeholder", "enter the number:");
   
-    x.setAttribute("id","n1");
+    inputButton1.setAttribute("id","n1");
   
-   var y = document.createElement("INPUT");
-   y.setAttribute("type", "text");
-   y.setAttribute("placeholder", "enter the range:");
-   y.setAttribute("id","n2");
-   document.body.appendChild(x);
-   document.body.appendChild(y);
-   q=document.createElement("Button");
-   q.setAttribute("onclick","run();");
-   document.body.appendChild(q)
-   q.innerHTML="run";
+   var inputButton2 = document.createElement("INPUT");
+   inputButton2.setAttribute("type", "text");
+   inputButton2.setAttribute("placeholder", "enter the range:");
+   inputButton2.setAttribute("id","n2");
+   document.body.appendChild(inputButton1);
+   document.body.appendChild(inputButton2);
+   runButton=document.createElement("Button");
+   runButton.setAttribute("onclick","run();");
+   document.body.appendChild(runButton)
+   runButton.innerHTML="run";
  
   
  }
