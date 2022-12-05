@@ -10,10 +10,10 @@ function start(){
    p.setAttribute("onclick","multipleof3();"); 
    p.innerHTML="start";
    document.body.appendChild(p)
-   q=document.createElement("Button");
+  /* q=document.createElement("Button");
    q.setAttribute("onclick","run();");
    document.body.appendChild(q)
-   q.innerHTML="run";
+   q.innerHTML="run";*/
  
 }
  
@@ -36,6 +36,11 @@ function start(){
    y.setAttribute("id","n2");
    document.body.appendChild(x);
    document.body.appendChild(y);
+   q=document.createElement("Button");
+   q.setAttribute("onclick","run();");
+   document.body.appendChild(q)
+   q.innerHTML="run";
+ 
   
  }
  function run(){
