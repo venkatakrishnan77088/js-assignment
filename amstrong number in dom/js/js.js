@@ -13,9 +13,26 @@ var inputButton1 = document.createElement("INPUT");
     inputButton1.setAttribute("type", "text");
     inputButton1.setAttribute("placeholder", "enter the number:");
    inputButton1.setAttribute("id","n1");
+   inputButton1.style.width="30%";
+   inputButton1.style.height="60px";
+   inputButton1.style.border="40px solid #85C1E9";
+   inputButton1.style.borderRadius="5px";
+   inputButton1.style.marginLeft="37%";
+   inputButton1.style.backgroundColor="white"
    document.body.appendChild(inputButton1);
+   
+  
+
+   
    runButton=document.createElement("Button");
+   
    runButton.setAttribute("onclick","run();");
+   runButton.style.width="10%"
+   runButton.style.marginLeft="5%"
+   runButton.style.height="60px"
+   
+
+   
    document.body.appendChild(runButton)
    runButton.innerHTML="run";
 }
@@ -53,3 +70,4 @@ if(z==p){
 	document.write("it is not amstrong number")
 }
 }
+
