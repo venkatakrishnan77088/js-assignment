@@ -1,7 +1,21 @@
 Button=document.createElement("Button")
 Button.setAttribute("onclick","start();");
-Button.innerHTML="click Me"
-document.body.appendChild(Button);
+Button.innerHTML="click Me1"
+//document.div.appendChild(Button);
+z=document.createElement("span")
+z.setAttribute("id","one")
+document.body.appendChild(z);
+sp=document.getElementById("one")
+sp.appendChild(Button);
+//u=document.getElementById("op")
+//u.appendChild(Button)
+//z.setAttribute("id","one")
+//i=document.getElementById("one")
+//i.appendChild(Button)
+
+//z=document.getElementsByName("div")
+//document.
+
 //document.body.background-color="#00FFFF";
 
 
