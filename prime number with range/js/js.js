@@ -42,6 +42,8 @@ buton1.onclick=function()
 			}
 		}
 		if(i==j)
+		//console.log(i)	
+		
 	{
 		//divt=document.createElement("div")
 		
