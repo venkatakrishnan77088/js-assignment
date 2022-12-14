@@ -1,20 +1,8 @@
-/*n = 5; 
-
-string = "";
-
-for( i = 0; i < n; i++) { 
-  for( j = 0; j < n; j++) { 
-    string += "*";
-  }
-  
-  string += "\n";
-}
-
-console.log(string);*/
+a=parseInt(prompt("enter the value"))
 string= "";
-for(i=0;i<5;i++){
-	for(j=0;j<5;j++){
-		if (j==0 || i==0 ||  i==4 || j==4){
+for(i=0;i<a;i++){
+	for(j=0;j<a;j++){
+		if (j==0 || i==0 ||  i==a-1 || j==a-1){
 			string += "*";
 	}else{
 		string+=" "
@@ -23,4 +11,4 @@ for(i=0;i<5;i++){
 	
 	
 	}
-	console.log(string)
+console.log(string)
